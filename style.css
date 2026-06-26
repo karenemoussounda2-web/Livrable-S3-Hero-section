@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #134611;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  border: 1px solid #fff;
+  width: auto;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #fff;
+  color: #134611;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000000;
+  /* background-color: #e8fccf; */
+  background-image: url("nima-ahmadzadeh-1IWPlOqJRNE-unsplash.jpg");
+  background-size: cover;
+}
+
+article {
+  margin-left: 20px;
+  color: #fff;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  right: 20px;
+  bottom: auto;
+  width: 400px;
+  height: auto;
+}
+.size-6 {
+  color: #fff;
+  width: 400px;
+}
+
+button {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #0bc029;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #0bc029;
+  color: #ffffff;
+}
